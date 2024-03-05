@@ -1,0 +1,821 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   
+} 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    bottom: 50px;
+    left: 150px;
+    padding-left: 25px;
+    color: #003A65;
+  }
+  .dropdown :hover{
+    cursor: pointer;
+    color: #B92A3B;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #003A65;
+    color: white;
+    transition:all 0.5s ease-out;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.header-logo img{
+    height: auto;
+    width: 10%;
+    position: relative;
+    top: 50px;
+}
+.main14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 170px;
+    left: 420px;
+}
+.main14 li{
+    list-style-type: none;
+    padding: 20px;
+    background-color: white;
+    color: #003A65;
+    border-radius:1px;
+    
+}
+.main14 li:hover{
+    cursor: pointer;
+    color: #B92A3B;
+}
+.main14 .search-input{
+    background-color: #f3f6f8;
+    border-bottom: 0;
+    border-radius: 0;
+    border-top: 0;
+    font-size: 0.9em;
+    height: 43px;
+    margin-top: 0;
+    padding: 0 3.5em 0 1em;
+}
+::placeholder{
+    position: relative;
+    left: 15px;
+}
+.main14 button h4{
+  font-size: 0.9em;
+    color: darkgray;
+}
+.main14 .icon{
+    background-color: #003A65;
+    position: absolute;
+    top: 7px;
+    width: 48px;
+    right: 418px;
+    height: 62px;
+}
+.main14 .icon:hover{
+    background-color: #B92A3B;
+    transition: all 1s ease-in-out;
+}
+.main14 .fa-solid{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    color: white;
+    font-size: 22px;
+
+}
+.header-nav{
+    position: relative;
+    display: inline;
+    left: 90px;
+    bottom: 40px;
+}
+.header-nav li {
+    display: inline-block;
+    gap: 80px;
+    margin-right: 70px;
+    text-decoration: none;
+    color: #003A65;
+}
+.header-nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #003A65;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-nav li a:hover{
+    color: #B92A3B;
+}
+.btn{
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color: #B92A3B;
+    align-self: flex-end;
+    text-decoration: none;
+    padding: 1.1em 4em;
+    border-bottom: 1em solid transparent;
+    border-radius: 5px;
+    position: relative;
+    bottom: 30px;
+    left: 170px;
+}
+.btn h4{
+    position: relative;
+    bottom: 30px;
+    color: #fff;
+    font-size: 20px;
+    right: 10px;
+}
+.nav-item-link {
+    
+    cursor: pointer;     
+    display: inline-block;
+    width: 220px;
+    height: 30px;
+    background-color: white;
+    text-decoration: none;
+    align-self: flex-end;
+    border-bottom: 1em solid transparent;
+    border-radius: 30px;
+    transition: all 1s ease-in-out;
+    color: #003A65;
+}
+.nav-item-link h3{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    bottom: 3px;
+
+}
+.nav-item-link h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    bottom: 8px;
+
+}
+.nav-item-link:hover{
+    background-color: #B92A3B;
+    transition: all 1s ease-in-out;
+    color: white;
+}
+.main1{
+    width: 100%;
+    position: relative;
+    bottom: 80px;
+}
+.main1 img{
+    width: 100%;
+    padding-top: 1rem;
+}
+.section{
+    font-family: summerfestival-regular, "Brush Script MT", cursive;
+    color: #B5A269;
+    font-size: 4em;
+}
+.main2{
+    background-color: rgba(255,255,255,0.85);
+    position: absolute;
+    width: 80%;
+    right: 130px;
+    height: 55vh;
+    bottom: 0px;
+    top: 500px;
+    z-index: 4;
+}
+.main2 h3{
+    position: absolute;
+    color: #003A65;
+    /* margin-right: 150px; */
+    right: 680px;
+    font-size: 3rem;
+} 
+.main2 p{
+    font-size: 19px;  
+    top: 96px;
+    right: 47%;
+    position: absolute;
+}
+.main2 h2 { 
+    font-size: 19px;
+    top: 148px;
+    right: 75%;
+    color: gray;
+    position: absolute;
+}
+.main2 span{
+    width: 90px;
+}
+.main3{
+     padding: 5.2em;
+    
+}
+.main3 strong{
+    font-size: bold;
+    font-size: 25px;
+    color: #003A65;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.main3 p{
+    font-size: 1.2em;
+    color: #003A65;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+.main3 h4{
+   
+    font-size: bold;
+    font-size: 25px;
+    color: #003A65;
+    font-family: 'Montserrat', sans-serif;
+}
+.main3 li a{
+   
+    font-size: bold;
+    font-size: 25px;
+    color: #003A65;
+}
+.main4{
+    position: relative;
+    width: 96%;
+    height: 50vh;
+    background-color: #003A65;
+    text-align: center;
+    color: #fff;
+
+    padding: 2em;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+#button{
+    width: 200px;
+    background-color: #fff;
+}
+#button a{
+    width: 200px;
+}
+.main5{
+    /* border: 1px solid black; */
+    color: #000;
+    position: relative;
+    text-align: start;
+    top: 160px!important;
+    left: 150px;
+}
+.main5 h1{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003A65;
+    /* margin-right: 12px; */
+}
+.main5 , p , ul ,li{
+    font: 500 1em/1.7 "Gotham Book","Gotham A","Gotham B","Montserrat",Georgia,Times,"Times New Roman",serif;
+    font-size: 18px;
+}
+.main5 ul li{
+    position: relative;
+    right: 30px;
+}
+.main5 ul li:hover{
+    cursor: pointer;
+    color:#B92A3B;
+    transition: all 1s ease-in-out;
+}
+.main h3{
+    position: relative;
+    top: 100px;
+    font-weight: bold;
+    color: #003A65;
+    font-size: 30px;
+}
+.main p{
+    position: relative;
+    top: 70px;
+}
+.main ul li{
+    position: relative;
+    top: 50px;
+    right: 40px;
+    text-decoration: underline;
+}
+.main ul li:hover{
+    cursor: pointer;
+    color:#B92A3B;
+    transition: all 1s ease-in-out;
+}
+.main table{
+    width: 1030px;
+    height: 50px;
+    position: relative;
+    top: 70px;
+}
+.main table td{
+    padding: 10px;
+}
+
+.main6{
+    background-color: whitesmoke;
+    width: 105%;
+    height: 100vh; 
+    position: relative; 
+    top: 300px;
+    /* left: 50px; */
+    right: 40px;
+}
+
+.main6 .hello h2{
+    position: relative;
+    top: 50px;
+    color: #8A690F;
+    font-size: 80px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+  
+    
+}
+
+.main6 .cards img{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    right: 400px;
+}
+.main6 .card-tittle{
+    position: relative;
+    background-color: white;
+    width: 353px;
+    height: 230px;
+    bottom: 35px;
+    left: 197px;
+}
+
+.card-tittle h3{
+    color: #003A65;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    font-size: 30px;
+}
+
+.card-tittle h3:hover{
+    color: #B92A3B;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.card-tittle .text{
+    position: relative;
+    right: 80px;
+}
+.card-tittle p{
+    color: #003A65;
+    position: relative;
+    top: 15px;
+}
+.card-tittle .text1{
+    position: relative;
+    right: 25px;
+}
+.main7{
+    position: relative;
+    left: 400px;
+    bottom: 550px;
+
+}
+.main7 .card-tittle h3{
+    color: #003A65;
+    position: relative;
+    top: 30px;
+    right: 40px;
+    font-size: 30px;
+}
+.main7 .card-tittle{
+    position: relative;
+    background-color: white;
+    width: 353px;
+    height: 180px;
+    bottom: 35px;
+    left: 195px;
+}
+.main7 .card-tittle .text1{
+    position: relative;
+    right: 68px;
+}
+.main7 .card-tittle p{
+    color: #003A65;
+    position: relative;
+    top: 15px;
+}
+.main8{
+    position: relative;
+    left: 100px;
+}
+.main8 h3{
+    position: relative;
+    color: #8A690F;
+    right: 580px;
+    top: 120px;
+    font-family: "Great Vibes", cursive;
+    font-size: 60px;
+}
+.main8 img{
+    width: 550px !important;
+    height: 350px !important;
+    position: relative;
+    right: 850px !important;
+    top: 100px;
+}
+.main8 p{
+    position: relative;
+    color: #003A65;
+    right: 870px;
+    top: 100px;
+    font-size: 30px;
+}
+.main8 h4 {
+    border-left: 1px solid gray;
+    width: 100px;
+    height: 700px;
+    position: relative;
+    bottom: 580px;
+    left: 250px;
+}
+.main8 p:hover{
+    cursor: pointer;
+    color: #B92A3B;
+    transition: all 1s ease-in-out;
+    
+}
+.main8 .text3{
+    position: relative;
+    right: 135px;
+}
+.main8 .para{
+    color: #003A65;
+    position: relative;
+    right: 850px;
+    font-size: 15px;
+}
+.main8 .text4{
+    position: relative;
+    right: 180px;
+}
+.main8 .para:hover{
+    color:black;
+    transition: all 1s ease-in-out;
+
+}
+.main9{
+    position: relative;
+    bottom: 700px;
+    left: 30px;
+}
+
+.main9 .img1{
+    width: 220px !important;
+    height: 150px !important;
+    position: relative;
+    left: -300px;
+    top: -610px;
+}
+.main9 h3{
+    position: relative;
+    color: #003A65;
+    top: -790px;
+    right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main9 h3:hover{
+    cursor: pointer;
+    color: #B92A3B;
+    transition: all 1s ease-in-out;
+}
+
+.main9 .text1{
+    position: relative;
+    right: 17px;
+}
+.main9 p{
+    position: relative;
+    color: dimgrey;
+     bottom: 800px;
+     left: 20px;
+}
+.main9 .text2{
+    position: relative;
+    right: 100px;
+}
+.main10{
+    position: relative;
+    bottom: 780px;
+    left: 30px;
+}
+.main10 .img1{
+    width: 220px !important;
+    height: 80px !important;
+    position: relative;
+    left: -300px;
+    top: -675px ;
+}
+.main10 h3{
+    position: relative;
+    color: #003A65;
+    top: -790px;
+    right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.main10 h3:hover{
+    cursor: pointer;
+    color: #B92A3B;
+    transition: all 1s ease-in-out;
+}
+
+.main10 .text1{
+    position: relative;
+    right: 17px;
+}
+.main10 .text3{
+    position: relative;
+    left: -50px;
+}
+.main10 p{
+    position: relative;
+    color: dimgrey;
+     bottom: 800px;
+     left: 20px;
+}
+.main10 .text2{
+    position: relative;
+    left: 30px;
+}
+.main10 .text4{
+    position: relative;
+    right: 100px;
+}
+.main11{
+    position: relative;
+    width: 1580px;
+    height: 250px;
+    right: 385px;
+    background-color: whitesmoke;
+    bottom: 1400px;
+}
+.main11 h3{
+    position: relative;
+    color: #8A690F;
+    top: 20px;
+    font-size: 40px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+.main11 .icon i{
+    color: white;
+    background-color: #003A65;
+    padding: 15px;
+    gap: 35px !important;
+    position: relative;
+    top: -20px;
+    font-size: 30px;
+    border-radius: 40px;
+}
+
+#main12{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: 120px;
+    right: 50px;
+}
+#main12 img{
+    position: relative;
+    top: 150px;
+    left: -600px;
+    width: 220px;
+    height: 200px;
+}
+#main12 h2{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 22%;
+    color: #003A65;
+}
+#main12 .btn2{
+    width: 450px;
+    height: 30px;
+    background-color: #003A65;
+    border-radius: 50px;
+    position: absolute;
+    top: 13%;
+    left: 45%;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+    text-align: center;
+}
+#main12 .btn2 h4{
+    font-size: 18px;
+    color:  white;
+    position: relative;
+    bottom: 30px;
+}
+#main12 .btn2:hover{
+    cursor: pointer;
+    background-color: #B92A3B;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+#main12 #main-box{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+.main-b{
+    width: 380px;
+    border-top: 4px solid #003A65;
+    margin-left: 30px;
+}
+.main-d{
+    width: 380px;
+    border-top: 4px solid #003A65;
+    margin-left: 30px;
+}
+#main12 .main-d ul li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: #003A65;
+    padding-top: 10px;
+}
+#main12 .main-d ul li:hover{
+    cursor: pointer;
+    color: #B92A3B;
+    transition: all 1s ease-in-out;
+}
+#main12 .main-b ul li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: #003A65;
+    padding-top: 10px;
+    position: relative;
+    right: 150px;
+}
+#main12 .main-b ul li:hover{
+    cursor: pointer;
+    color: #B92A3B;
+    transition: all 1s ease-in-out;
+}
+#main12 .text1{
+    position: relative;
+    right: 5px;
+}
+#main12 .text2{
+    position: relative;
+    right: 25px;
+}
+#main12 .text3{
+    position: relative;
+    left: 22px;
+}
+#main12 .text4{
+    position: relative;
+    right: 32px;
+}
+#main12 .text5{
+    position: relative;
+    right: 180px;
+}
+#main12 .text6{
+    position: relative;
+    right: 173px;
+}
+#main12 .text7{
+    position: relative;
+    right: 158px;
+}
+#main12 .text8{
+    position: relative;
+    right: 138px;
+}
+#main12 .text9{
+    position: relative;
+    left: 25px;
+}
+#main12 .text10{
+    position: relative;
+    right: 18px;
+}
+#main12 .text11{
+    position: relative;
+    right: 27px;
+}
+#main12 .text12{
+    position: relative;
+    right: 10px;
+    
+}
+#main13{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-color: #003A65;
+    display: flex;
+    justify-content: space-between;
+    top: 550px;
+}
+#main13 .main-1{
+    width: 20%;
+    height: 200px;
+    padding-top: 5%;
+    padding-left: 40px;
+}
+#main13 .main-2{
+    width: 60%;
+    height: 200px;
+    color: white;
+    position: relative;
+    top: 30%;
+}
+#main13 .main-2 p{
+    position: relative;
+    right: 600px;
+}
+#main13 .main-2 .para1{
+    position: relative;
+    right: 260px;
+}
+#main13 .main-2 .text1{
+    position: relative;
+    left: 500px;
+    bottom: 30px;
+}
+#main13 .main-3{
+    width: 20%;
+    height: 200px;
+}
+#main13 #icon4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+}
+#main13 .icon5{
+    width: 50px;
+    height: 35px;
+    background-color: white;
+    border-radius: 55%;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+    color: #003A65;
+    margin-left: 10px;
+}
+#footer{
+    width: 100%;
+    height: 20px;
+    background-color: #B92A3B;
+    position: relative;
+    top: 560px;
+}
